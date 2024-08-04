@@ -71,6 +71,7 @@
     background-color: pink;
     margin-bottom: 10px;
     padding: 10px 0px;
+    margin: auto;
   }
   
   /* Last item should not have a bottom border */
