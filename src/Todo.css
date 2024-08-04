@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Styles for the top navigation bar */
+  .topnav {
+    
+    background-color: #333;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+  }
+  
+  /* Styles for the form */
+  .topnav form {
+    display: flex; /* Use flexbox to align the input and button */
+    align-items: center; /* Center the items vertically */
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  
+  /* Styles for the input field */
+  .topnav input[type="text"] {
+    margin-top: 10px;
+    padding: 8px; /* Padding inside the input */
+    margin-right: 5px; /* Space between input and button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    width: 300px; /* Width of the input field */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Styles for the button */
+  .topnav button {
+    margin-top: 10px;
+    padding: 8px 12px; /* Padding inside the button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+  }
+  
+  /* Button hover effect */
+  .topnav button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Styles for the unordered list */
+  ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Styles for the list items */
+  li {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    background-color: pink;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+  }
+  
+  /* Last item should not have a bottom border */
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+  }
+  
+  li button {
+    padding: 2px 4px; /* Padding inside the buttons */
+    margin-left: 5px; /* Margin between buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+  }
+  
+  /* Edit button styles */
+  li button:first-of-type {
+    background-color: #2196F3; /* Blue background for edit button */
+    color: white; /* White text */
+  }
+  
+  /* Edit button hover effect */
+  li button:first-of-type:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+  }
+  
+  /* Delete button styles */
+  li button:last-of-type {
+    background-color: #f44336; /* Red background for delete button */
+    color: white; /* White text */
+  }
+  
+  /* Delete button hover effect */
+  li button:last-of-type:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+
+  .flex{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flexBox-1{
+width: 48%;
+margin-top: 20px;
+}
+
+.flexBox-2{
+  width: 48%;
+  margin-top: 20px;
+  }
